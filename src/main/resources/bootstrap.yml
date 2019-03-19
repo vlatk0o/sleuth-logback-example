@@ -1,0 +1,4 @@
+logging:
+  appender-ref: JSON
+  pattern:
+    console: date=%d{yyyy-MM-dd HH:mm:ss.SSS} | projectVersion=%X{projectVersion} | level=%5p | marker=%-17marker |thread=%-20.20thread | traceId=%X{traceId} | spanId=%X{spanId} | clientId=%X{clientId} | class=%class{15}.%L | message="%m"%n
